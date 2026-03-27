@@ -1,0 +1,184 @@
+---
+name: Project Manager
+description: Tracks project progress, reports status, coordinates between team roles, and manages the timeline for the Whisk Desktop application.
+---
+
+# Project Manager Skill
+
+## Role Overview
+
+The **Project Manager** is responsible for:
+
+- Tracking overall project progress
+- Reporting status to the user/stakeholder
+- Coordinating work between team roles (UI/UX, Backend, i18n, QA, DevOps)
+- Identifying blockers and risks
+
+> [!IMPORTANT]
+> **Mandatory Rule**: When the user requests a project status report (`báo cáo tiến độ`), you **MUST** update the following files:
+>
+> 1. `.manager/progress-report.md` — Full project report with metrics, features, coverage, architecture
+> 2. `.manager/current_task.md` — Current active task + backlog status
+> 3. `.agent/skills/project-manager/SKILL.md` — Feature Status table + Key Files table
+
+---
+
+## Current Feature Status
+
+| Feature                                      | Status    | Owner       |
+| -------------------------------------------- | --------- | ----------- |
+| Theme Engine (light/dark)                    | ✅ Done   | UI/UX Dev   |
+| i18n System (en/vi)                          | ✅ Done   | i18n        |
+| Auth System (login/session)                  | ✅ Done   | Backend Dev |
+| Config Panel (model/quality/ratio)           | ✅ Done   | UI/UX Dev   |
+| Dynamic Reference Slots (1-5)                | ✅ Done   | UI/UX Dev   |
+| Task Queue Table                             | ✅ Done   | UI/UX Dev   |
+| Reference Image Grid (3-column)              | ✅ Done   | UI/UX Dev   |
+| Animated Progress Bars                       | ✅ Done   | UI/UX Dev   |
+| Config Persistence (QSettings)               | ✅ Done   | UI/UX Dev   |
+| Clear/Reset Config                           | ✅ Done   | UI/UX Dev   |
+| Output Thumbnails (adaptive grid)            | ✅ Done   | UI/UX Dev   |
+| Mock API (TaskItem model)                    | ✅ Done   | Backend Dev |
+| Sidebar (collapsible)                        | ✅ Done   | UI/UX Dev   |
+| Header (toggles, user info)                  | ✅ Done   | UI/UX Dev   |
+| Cookie/Token Manager                         | ✅ Done   | Backend Dev |
+| Project Manager Dialog                       | ✅ Done   | UI/UX Dev   |
+| Real API Integration                         | ✅ Done   | Backend Dev |
+| Background Image Generation                  | ✅ Done   | Backend Dev |
+| Concurrent Generation (threads)              | ✅ Done   | Backend Dev |
+| Real-time Progress Tracking                  | ✅ Done   | UI/UX Dev   |
+| Image Preview Modal + Download               | ✅ Done   | UI/UX Dev   |
+| Styled Message Box (custom dialog)           | ✅ Done   | UI/UX Dev   |
+| Queue Checkpoint (save/load)                 | ✅ Done   | Backend Dev |
+| Error Message Column                         | ✅ Done   | UI/UX Dev   |
+| Cookie from Project Dialog                   | ✅ Done   | UI/UX Dev   |
+| Split Base URLs (admin/labs)                 | ✅ Done   | Backend Dev |
+| Cross-Platform Build (macOS .app)            | ✅ Done   | DevOps      |
+| Prompt Normalizer (text/JSON)                | ✅ Done   | Backend Dev |
+| Per-Task Timeout (2min)                      | ✅ Done   | Backend Dev |
+| Lightweight Progress Updates                 | ✅ Done   | UI/UX Dev   |
+| Scroll Position Preservation                 | ✅ Done   | UI/UX Dev   |
+| Re-run Completed Tasks                       | ✅ Done   | Backend Dev |
+| Project-based Save Paths                     | ✅ Done   | Backend Dev |
+| Emoji Log Messages                           | ✅ Done   | DevOps      |
+| Workflow Persistence (QSettings)             | ✅ Done   | Backend Dev |
+| Download All Button                          | ✅ Done   | UI/UX Dev   |
+| Add-to-Queue State Management                | ✅ Done   | UI/UX Dev   |
+| Per-Project Queue Isolation                  | ✅ Done   | Backend Dev |
+| Cookie Expiration Validation                 | ✅ Done   | Backend Dev |
+| Threaded Login with Loading                  | ✅ Done   | UI/UX Dev   |
+| Disabled Button Styling                      | ✅ Done   | UI/UX Dev   |
+| Flow Name in Save Paths                      | ✅ Done   | Backend Dev |
+| Timeout Countdown (⏱ elapsed)                | ✅ Done   | UI/UX Dev   |
+| Auto-Retry Failed Tasks                      | ✅ Done   | Backend Dev |
+| Prompt Search Filter                         | ✅ Done   | UI/UX Dev   |
+| Status Filter (toolbar)                      | ✅ Done   | UI/UX Dev   |
+| Toast Notifications (batch done)             | ✅ Done   | UI/UX Dev   |
+| Select All Errors (⚠️ button)                | ✅ Done   | UI/UX Dev   |
+| Task Count Statistics (toolbar)              | ✅ Done   | UI/UX Dev   |
+| Stuck Task Cleanup (on reload)               | ✅ Done   | Backend Dev |
+| Prompt Count (config panel)                  | ✅ Done   | UI/UX Dev   |
+| Max 300 Prompt Validation                    | ✅ Done   | Backend Dev |
+| AI Fix Buttons (GPT/Gemini)                  | ✅ Done   | UI/UX Dev   |
+| Copy All Prompts (header click)              | ✅ Done   | UI/UX Dev   |
+| Completion Timestamp Column                  | ✅ Done   | UI/UX Dev   |
+| Sort by Newest Completed                     | ✅ Done   | Backend Dev |
+| Ref Mode Toggle Buttons (UI)                 | ✅ Done   | UI/UX Dev   |
+| Per-Category Get ID (title/scene/style)      | ✅ Done   | UI/UX Dev   |
+| Background Ref Upload (QThread)              | ✅ Done   | Backend Dev |
+| Crash Fix (deleteLater race)                 | ✅ Done   | Backend Dev |
+| Completion Timestamp Persistence             | ✅ Done   | Backend Dev |
+| File Splitting Rule (>500 lines)             | ✅ Done   | DevOps      |
+| Token Refresh + Server Logout                | ✅ Done   | Backend Dev |
+| Auto-Recovery Login Cascade                  | ✅ Done   | Backend Dev |
+| Dynamic Timeout Budget (60s)                 | ✅ Done   | Backend Dev |
+| Single Mode Preload Injection                | ✅ Done   | Backend Dev |
+| Ref Image Persistence Fix (from_dict)        | ✅ Done   | Backend Dev |
+| Sort Toggle on DONE AT Column                | ✅ Done   | UI/UX Dev   |
+| Dashboard Statistics Page                    | ✅ Done   | UI/UX Dev   |
+| Per-Project Dashboard Stats                  | ✅ Done   | UI/UX Dev   |
+| Google Credits (Cookie Manager)              | ✅ Done   | Backend Dev |
+| Language Switcher Redesign (pill)            | ✅ Done   | UI/UX Dev   |
+| Sidebar Logo Redesign + Branding             | ✅ Done   | UI/UX Dev   |
+| Preferences Persistence (theme/lang)         | ✅ Done   | Backend Dev |
+| Search Input Redesign (pill shape)           | ✅ Done   | UI/UX Dev   |
+| Cancel Running Tasks (⏹)                     | ✅ Done   | UI/UX Dev   |
+| AI Prompt Generator (ChatGPT/Gemini)         | ✅ Done   | UI/UX Dev   |
+| Saved Prompts CRUD (local JSON)              | ✅ Done   | UI/UX Dev   |
+| Software Update (auto-check)                 | ✅ Done   | Backend Dev |
+| Crash Logger + Data Dir                      | ✅ Done   | DevOps      |
+| macOS Dual-Arch Build (DMG)                  | ✅ Done   | DevOps      |
+| Captcha Bridge Server (HTTP)                 | ✅ Done   | Backend Dev |
+| Excaptcha Chrome Extension (Webpack)         | ✅ Done   | DevOps      |
+| Port Selector (VEO3/WHISK)                   | ✅ Done   | UI/UX Dev   |
+| Compact Table Toggle (per-mode cols)         | ✅ Done   | UI/UX Dev   |
+| Active Project in Cookie Title               | ✅ Done   | UI/UX Dev   |
+| Bridge Error Modal (Labs link)               | ✅ Done   | UI/UX Dev   |
+| Get Cookie 3s Countdown                      | ✅ Done   | UI/UX Dev   |
+| Auto-flow Cookie Manager                     | ✅ Done   | UI/UX Dev   |
+| ProjectManager → Cookie Dependencies         | ✅ Done   | Backend Dev |
+| Image Preview HiDPI Fix (Windows)            | ✅ Done   | UI/UX Dev   |
+| Pricing Page (Free/Pro/Ultra)                | ✅ Done   | UI/UX Dev   |
+| Download Progress Bar (Update Dialog)        | ✅ Done   | UI/UX Dev   |
+| UX Phase 3 (Sound/Ctrl+F/Cancel/Tooltip)     | ✅ Done   | UI/UX Dev   |
+| Auto Get Cookie Fix (click-only)             | ✅ Done   | Backend Dev |
+| Server Deployment (Docker)                   | ✅ Done   | DevOps      |
+| Pricing Update (99k/199k Pro/Ultra)          | ✅ Done   | UI/UX Dev   |
+| Google Drive Auto-Upload (rclone)            | ✅ Done   | DevOps      |
+| Pipeline Perf Optimization (debounce)        | ✅ Done   | Backend Dev |
+| Queue Grid 4K Tag Badge                      | ✅ Done   | UI/UX Dev   |
+| Update Toast (once per version)              | ✅ Done   | UI/UX Dev   |
+| Pipeline Benchmark + Regression Guard        | 🔄 Active | Backend Dev |
+| Startup Splash + Deferred Tab Loading        | ✅ Done   | Backend Dev |
+| Coverage Sprint (80% → 90%)                  | 🔄 Active | QA Engineer |
+| Inno Setup Installer (Windows)               | ✅ Done   | DevOps      |
+| Desktop Shortcut Default (Windows)           | ✅ Done   | DevOps      |
+| Auto Cookie Module (undetected-chromedriver) | ✅ Done   | Backend Dev |
+| Browser Config (Settings headless/keep)      | ✅ Done   | UI/UX Dev   |
+| Auto Solve Toggle (Settings page)            | ✅ Done   | UI/UX Dev   |
+
+---
+
+## Team Coordination Map
+
+| Role              | Skill File                   | Responsible For                       |
+| ----------------- | ---------------------------- | ------------------------------------- |
+| UI/UX Developer   | `ui-ux-developer/SKILL.md`   | Theme, widgets, pages, QSS styling    |
+| Backend Developer | `backend-developer/SKILL.md` | API layer, data models, mock/real API |
+| i18n Specialist   | `i18n-specialist/SKILL.md`   | Translations, language switching      |
+| QA Engineer       | `qa-engineer/SKILL.md`       | Unit tests, coverage                  |
+| DevOps Engineer   | `devops-engineer/SKILL.md`   | Setup, cross-platform builds          |
+
+---
+
+## Key Files to Monitor
+
+| File                                                           | Purpose                                              |
+| -------------------------------------------------------------- | ---------------------------------------------------- |
+| `requirements.txt`                                             | Dependencies                                         |
+| `main.py`                                                      | App entry point — must launch without errors         |
+| `app/main_window/main_window.py`                               | 🆕 Main window (refactored package)                  |
+| `app/main_window/tab_manager.py`                               | 🟡 Tab management, deferred init                     |
+| `app/main_window/dialog_builders.py`                           | Dialog factory helpers                               |
+| `app/widgets/cookie_manager_dialog/cookie_manager_dialog.py`   | Cookie CRUD, test & save flow, credit check          |
+| `app/widgets/cookie_manager_dialog/bridge_ops.py`              | 🆕 Cookie bridge ops                                 |
+| `app/widgets/update_dialog/update_dialog.py`                   | 🟡 Software update UI + contact support              |
+| `app/captcha_bridge_server/landing_page.py`                    | 🟡 HTML template (captcha landing)                   |
+| `app/widgets/project_manager_dialog/project_manager_dialog.py` | 🟡 Project CRUD, activate, cookie integration        |
+| `app/widgets/config_panel/settings_handlers.py`                | Config persistence, ref mode, retranslation          |
+| `app/widgets/config_panel/build_sections.py`                   | Config panel UI sections                             |
+| `app/widgets/intro_cookie_manager_dialog/intro_cookie_ops.py`  | 🟡 Intro cookie ops (with auto-solve)                |
+| `app/widgets/intro_pipeline_dialog/intro_pipeline_dialog.py`   | 🟡 Intro pipeline wizard                             |
+| `app/api/models.py`                                            | Data model definitions (TaskItem, FlowItem, etc.)    |
+| `app/pages/image_creator_page/page_handlers.py`                | Queue ops, generation, auto-retry, download          |
+| `app/widgets/task_queue_table/task_queue_table.py`             | Queue display, sort, AI fix, copy prompts, filters   |
+| `app/pages/dashboard_page.py`                                  | Per-project statistics dashboard                     |
+| `app/api/workflow_api/image_ops.py`                            | Whisk image generation + upload API client           |
+| `app/pages/image_creator_page/run_handlers.py`                 | Run/retry logic for image generation                 |
+| `app/auth/auth_manager.py`                                     | Login, session, token refresh, logout, auto-recovery |
+| `app/pages/settings_page.py`                                   | 🟡 Settings + Browser config card                    |
+| `app/auto_cookie/solver.py`                                    | 🆕 Stealth Chrome cookie extraction                  |
+| `app/auto_cookie/worker.py`                                    | 🆕 QThread wrapper for solver                        |
+| `app/auto_cookie/cookie_cache.py`                              | 🆕 Cookie cache (TTL, invalidation)                  |
+| `app/prompt_normalizer.py`                                     | Prompt sanitization (plain text + JSON)              |
+| `app/widgets/toast_notification.py`                            | Non-blocking auto-dismiss notifications              |
