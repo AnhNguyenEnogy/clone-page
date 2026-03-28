@@ -1,0 +1,70 @@
+{
+  "analysis_info": {
+    "video_file": "sample_video.mp4",
+    "duration_seconds": 48,
+    "num_scenes": 6,
+    "num_characters": 2,
+    "language": "vi",
+    "style": "auto-detected"
+  },
+  "characters": [
+    {
+      "label": "the wise old fisherman",
+      "description": "An elderly man around 65, weathered dark tanned skin, deep wrinkles around eyes and forehead, square jaw with slight stubble, short silver-grey hair cropped close to the head, thick grey eyebrows, small dark brown eyes that are warm and kind. Wearing a faded navy blue cotton vest over a wrinkled white undershirt, rolled-up khaki cotton trousers with frayed edges, worn brown leather sandals, and a battered straw hat with a wide brim."
+    },
+    {
+      "label": "the young boy in red shirt",
+      "description": "A boy around 10 years old, light tan skin, round face with rosy cheeks, large bright dark eyes full of curiosity, short straight black hair with a cowlick at the front, small button nose. Wearing a bright red cotton t-shirt with a small anchor logo on the chest, navy blue shorts reaching just above the knees, old white canvas sneakers without socks."
+    }
+  ],
+  "vietnamese_script": "Cảnh 1: Bình minh trên bến cảng nhỏ. Ông lão ngư dân ngồi trên mũi thuyền gỗ, đang cẩn thận buộc lưới. Cậu bé áo đỏ chạy từ xa lại, vẫy tay hào hứng.\n\nCảnh 2: Cận cảnh bàn tay nhăn nheo của ông lão đang khéo léo gỡ rối lưới. Cậu bé ngồi bên cạnh, mắt tròn xoe quan sát.\n\nCảnh 3: Hai ông cháu cùng đẩy chiếc thuyền gỗ ra biển. Sóng nhẹ vỗ vào chân. Ông lão nắm tay cậu bé giúp leo lên thuyền.\n\nCảnh 4: Giữa biển xanh, ông lão hướng dẫn cậu bé kéo lưới. Cậu bé cố gắng dùng cả hai tay kéo, mặt đỏ au vì gắng sức.\n\nCảnh 5: Cận cảnh mẻ lưới đầy cá bạc óng ánh. Cậu bé reo vui, nhảy lên trên thuyền. Ông lão mỉm cười hiền hậu.\n\nCảnh 6: Hoàng hôn. Hai ông cháu ngồi trên bờ biển, chia nhau ổ bánh mì. Ánh nắng vàng chiếu sau lưng, tạo silhouette đẹp.",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "image_prompt": "the wise old fisherman (an elderly man around 65, weathered dark tanned skin, deep wrinkles, short silver-grey hair, faded navy blue cotton vest, white undershirt, rolled-up khaki trousers, brown sandals, battered straw hat) sits on the bow of a weathered wooden fishing boat, carefully tying fishing nets. the young boy in red shirt (a 10-year-old boy, light tan skin, round face, bright dark eyes, short black hair, bright red t-shirt with anchor logo, navy shorts, white sneakers) runs toward the dock in the background, waving excitedly. Early morning golden light, small fishing harbor with wooden docks, calm turquoise water, other boats moored nearby. Wide shot, slightly low angle, warm cinematic lighting, soft morning mist, 9:16 vertical.",
+      "veo_prompt": "the wise old fisherman (elderly, dark tanned skin, navy vest, straw hat) sits on a wooden boat bow, his weathered hands deftly tying knots in a fishing net. In the background, the young boy in red shirt (10 years old, red t-shirt, navy shorts) runs along the wooden dock toward the boat, waving both arms excitedly. The camera starts with a medium shot of the fisherman, then slowly pans right to reveal the running boy. Soft morning mist drifts across the calm harbor water, catching the early golden sunlight. Seagulls call in the distance. Warm, golden dawn lighting with soft lens flare. 9:16 vertical."
+    },
+    {
+      "scene_number": 2,
+      "image_prompt": "the wise old fisherman (elderly, weathered hands with visible veins and calluses, navy vest) carefully untangles a complex knot in the fishing net, his fingers moving with practiced precision. the young boy in red shirt (10 years old, round face, wide curious eyes, red t-shirt) sits cross-legged beside him on the boat deck, chin resting on hands, watching intently. Extreme close-up of the hands and net, with the boy slightly out of focus in the background. Warm overhead morning light, detailed rope and net textures, wooden boat planks visible. 9:16 vertical.",
+      "veo_prompt": "the wise old fisherman's weathered, calloused hands work methodically, fingers deftly pulling and untangling a knotted section of fishing net. the young boy in red shirt sits beside him, leaning forward with wide curious eyes, occasionally pointing at a knot. The camera holds an intimate close-up on the hands, slowly racking focus between the working hands and the boy's fascinated face. The net fibers sway gently. Sounds of rope creaking and water lapping against the boat hull. Warm morning light creates soft shadows. 9:16 vertical."
+    },
+    {
+      "scene_number": 3,
+      "image_prompt": "the wise old fisherman (elderly, navy vest, straw hat, rolled-up trousers, bare feet in shallow water) and the young boy in red shirt (red t-shirt, navy shorts, sneakers getting wet) push a weathered wooden fishing boat from the sandy shore into the sea. Gentle waves lap at their feet. The fisherman holds the boy's hand to help him climb aboard. Medium-wide shot, low angle from water level, early morning light reflecting off the water surface, small coastal village in the background. 9:16 vertical.",
+      "veo_prompt": "the wise old fisherman and the young boy in red shirt lean forward together, pushing the heavy wooden boat across wet sand toward the water. Their feet splash in the shallow surf. The boat slowly begins to float as it reaches deeper water. The fisherman then turns, extends his strong hand down, and the boy grabs it, being pulled up onto the rocking boat with a small jump. Camera: tracking shot at water level, moving alongside them, capturing splashing water droplets catching the sunlight. Sound of waves, wood scraping on sand, water splashing. 9:16 vertical."
+    },
+    {
+      "scene_number": 4,
+      "image_prompt": "the wise old fisherman (elderly, navy vest, straw hat) stands behind the young boy in red shirt (red t-shirt, face straining with effort, both hands gripping the net rope), guiding the boy's arms as they pull in a heavy fishing net together. Open blue sea surrounds the small wooden boat. The net is partially visible below the water surface with silver fish shapes inside. Medium shot from slight high angle, bright midday sun creating sparkle on the water, seabirds flying overhead. 9:16 vertical.",
+      "veo_prompt": "the wise old fisherman positions himself behind the young boy in red shirt, placing his large weathered hands over the boy's small hands on the rope. Together they pull the heavy net, leaning back with effort. The boy's face turns red from straining, teeth gritted in determination. The fisherman smiles encouragingly. The net slowly rises from the blue water, dripping and heavy. Camera: medium shot, gentle rocking motion matching the boat's sway. Sound of rope straining, water dripping, the boy grunting with effort. Bright midday sun with sparkling water. 9:16 vertical."
+    },
+    {
+      "scene_number": 5,
+      "image_prompt": "the young boy in red shirt (red t-shirt, face lit up with pure joy, mouth open in excited shout, arms raised) jumps in celebration on the boat deck. the wise old fisherman (elderly, navy vest, kind gentle smile, eyes crinkled) watches him warmly. Between them, a fishing net overflows with glistening silver fish, scales catching the sunlight in rainbow reflections. Close-up shot slightly from below, bright golden afternoon light, deep blue sea in background. 9:16 vertical.",
+      "veo_prompt": "the young boy in red shirt leaps up on the boat deck with arms raised high, shouting with pure joy, his eyes sparkling. the wise old fisherman watches him with a warm, gentle smile, eyes crinkling with affection. The camera pushes in slowly from a medium shot to a close-up, capturing the boy's infectious excitement and the old man's quiet pride. The net between them glitters with dozens of silver fish, their scales creating rainbow light reflections. Golden afternoon sunlight bathes the scene. Sound of the boy's joyful shout, fish flopping, water lapping. 9:16 vertical."
+    },
+    {
+      "scene_number": 6,
+      "image_prompt": "the wise old fisherman (elderly, navy vest, straw hat on the sand beside him) and the young boy in red shirt (red t-shirt, bare feet, content smile) sit side by side on the beach at sunset, sharing a simple banh mi sandwich. Golden-orange sunset sky behind them creates beautiful warm silhouette edges around their figures. Gentle waves in the foreground reflect the sunset colors. Wide shot with slight low angle, dramatic golden hour lighting with rich orange and purple sky, peaceful atmosphere. 9:16 vertical.",
+      "veo_prompt": "the wise old fisherman and the young boy in red shirt sit peacefully side by side on the sandy beach, their backs to the camera. They pass a banh mi sandwich between them, each taking a bite. The boy leans slightly against the fisherman's arm. The camera slowly pulls back and rises, gradually revealing the vast golden-orange sunset sky reflected in the calm ocean water. Warm rim light edges their silhouettes in gold. Sound of gentle waves, distant seabirds, the soft crunch of bread. Peaceful, emotional golden hour light intensifies. 9:16 vertical."
+    }
+  ],
+  "social_content": {
+    "facebook": {
+      "title": "Ai ngờ 1 buổi đi biển với ông ngoại lại thay đổi cả cuộc đời cậu bé này...",
+      "content": "Khi ông cháu cùng kéo mẻ lưới đầu tiên, đôi mắt cậu bé sáng rực lên — đó không chỉ là cá, mà là bài học đầu đời quý giá nhất. Có những thứ không sách vở nào dạy được, chỉ biển cả và tình yêu thương mới làm được 🌊❤️ Bạn có kỷ niệm nào với ông bà không? Share ở comment nhé!",
+      "hashtags": "#ôngcháu #tìnhyêuthương #bàihọccuộcđời #ngưdân #biển #kỷniệm #ôngbà #cuộcsốnggiảndị #viral #trending"
+    },
+    "youtube": {
+      "title": "Ông Lão Ngư Dân Dạy Cháu Trai Bài Học Cuộc Đời Trên Biển | Phim Ngắn Cảm Động",
+      "content": "Câu chuyện cảm động về tình ông cháu trên vùng biển nhỏ. Ông lão ngư dân 65 tuổi dẫn cháu trai 10 tuổi ra biển lần đầu tiên — từ buộc lưới, đẩy thuyền, đến kéo mẻ cá đầu đời. Không phải kiến thức từ sách vở, mà là bài học từ cuộc sống, từ biển cả, từ tình yêu thương giản dị nhất.",
+      "hashtags": "#phimngan #camxuc #ongchau #ngudan #bien #baihoccuocdoi #vietnam #shortfilm"
+    },
+    "tiktok": {
+      "title": "Ông dẫn cháu đi biển lần đầu — cái kết khiến ai cũng rơi nước mắt 🥹",
+      "content": "Mẻ lưới đầu đời 🐟 Bài học không có trong sách vở 📖💧",
+      "hashtags": "#ongchau #bien #camxuc #xuhuong #foryou #viral #tinhyeuthuong #ngudan"
+    }
+  }
+}

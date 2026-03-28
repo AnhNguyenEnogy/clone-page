@@ -1,0 +1,18 @@
+[
+  {"title": "Không chọn giọng đọc", "description": ""},
+  {"title": "Giọng tùy chỉnh (Nhập prompt riêng)", "description": "CUSTOM"},
+  {"title": "Giọng Nam Miền Bắc Trầm Triết Lý", "description": "Giọng nam trung niên miền Bắc, phát âm chuẩn Hà Nội, trầm ấm và rõ chữ, nhịp nói chậm rãi và đều đặn. Tông giọng thấp, chắc, mang cảm giác từng trải và sâu sắc."},
+  {"title": "Giọng Ông Lão Miền Bắc Kể Chuyện Đạo Lý", "description": "Giọng nam lớn tuổi miền Bắc, hơi khàn nhẹ nhưng rõ chữ. Nhịp nói chậm, giống ông lão kể chuyện đời cho con cháu. Ấm áp, giàu cảm xúc."},
+  {"title": "Giọng Thầy Giáo Miền Bắc Giảng Đạo Lý", "description": "Giọng nam miền Bắc rõ ràng, nghiêm nghị nhưng không khô cứng. Tốc độ vừa phải, mạch lạc như đang giảng bài."},
+  {"title": "Giọng Nam Miền Bắc Cảnh Tỉnh Nhân Sinh", "description": "Giọng nam miền Bắc trầm và chắc, nhịp nói chậm dứt khoát. Nhấn mạnh vào từ mang tính cảnh báo."},
+  {"title": "Giọng Tế Công Châm Biếm Miền Bắc", "description": "Giọng nam miền Bắc hơi khàn, phóng khoáng. Lên xuống tạo sắc thái châm biếm nhẹ. Nửa hài hước nửa sâu sắc."},
+  {"title": "Giọng Người Cha Miền Bắc Khuyên Con", "description": "Giọng nam miền Bắc trưởng thành, trầm ấm thân thiện. Như người cha ngồi nói chuyện với con."},
+  {"title": "Giọng Triết Gia Miền Bắc Suy Tư", "description": "Giọng nam miền Bắc trầm sâu, nói rất chậm, nhiều khoảng dừng. Bình tĩnh, ổn định, tạo cảm giác suy tư."},
+  {"title": "Giọng Thiền Sư Miền Bắc Tĩnh Tại", "description": "Giọng nam miền Bắc trầm nhẹ, nói rất chậm và mềm. Bình thản, tĩnh lặng, an hòa."},
+  {"title": "Giọng Nam Miền Trung Trầm Đạo Lý", "description": "Giọng nam miền Trung, phát âm đặc trưng nhưng rõ ràng. Chân chất, thật thà."},
+  {"title": "Giọng Ông Lão Miền Trung Kể Chuyện Đời", "description": "Giọng nam lớn tuổi miền Trung, hơi khàn, nhịp chậm. Hiền hậu, chân thật."},
+  {"title": "Giọng Nam Miền Nam Trầm Ấm Đạo Lý", "description": "Giọng nam miền Nam trầm ấm, mềm mại. Gần gũi, thân thiện."},
+  {"title": "Giọng Ông Lão Miền Nam Kể Chuyện", "description": "Giọng nam lớn tuổi miền Nam, hơi khàn nhẹ nhưng hiền hậu. Như ông nội kể chuyện."},
+  {"title": "Giọng Người Cha Miền Nam Khuyên Con", "description": "Giọng nam miền Nam ấm áp, nhẹ nhàng. Yêu thương, bao dung."},
+  {"title": "Giọng Kể Chuyện Nhân Quả Miền Nam", "description": "Giọng nam miền Nam trầm, hơi bí ẩn. Chậm, rõ ràng, để người nghe suy ngẫm."}
+]
