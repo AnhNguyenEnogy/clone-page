@@ -1,0 +1,80 @@
+{
+  "mien_bac": {
+    "name": "Miền Bắc",
+    "regions": {
+      "ha_noi": {
+        "name": "Hà Nội",
+        "backdrop": "Phố cổ 36 phố phường, cầu Thê Húc, Hồ Gươm, nhà cổ mái ngói",
+        "dishes": [
+          {"name": "Phở Bò Hà Nội", "name_en": "Hanoi Beef Pho", "ingredients": "bánh phở, thịt bò, xương bò, hành, gừng, quế, hồi, thảo quả", "steps": ["Ninh xương với hành gừng nướng", "Cho quế hồi thảo quả vào túi gia vị", "Thái thịt bò mỏng", "Trụng bánh phở nước sôi", "Chan nước dùng nóng, rắc hành rau mùi"]},
+          {"name": "Bún Thang", "name_en": "Bun Thang Noodle Soup", "ingredients": "bún, gà, trứng, giò lụa, tôm khô, rau răm", "steps": ["Nấu nước dùng gà trong vắt", "Xé thịt gà sợi nhỏ", "Tráng trứng mỏng thái chỉ", "Thái giò lụa sợi", "Bày bún, xếp nhân, chan nước dùng"]},
+          {"name": "Bún Chả", "name_en": "Grilled Pork with Noodles", "ingredients": "thịt nướng, bún, nước mắm, đu đủ xanh, rau sống", "steps": ["Ướp thịt ba chỉ + chả viên", "Nướng trên than hoa", "Pha nước chấm chua ngọt", "Thái đu đủ xanh ngâm nước mắm", "Bày bún + rau + chả nướng"]},
+          {"name": "Chả Cá Lã Vọng", "name_en": "La Vong Fish", "ingredients": "cá lăng, nghệ, thì là, hành lá, mắm tôm, bún", "steps": ["Ướp cá với nghệ tươi", "Nướng sơ cá trên than", "Chiên mỡ với thì là hành lá", "Ăn kèm bún mắm tôm"]},
+          {"name": "Bánh Cuốn", "name_en": "Steamed Rice Rolls", "ingredients": "bột gạo, thịt nạc, mộc nhĩ, hành phi", "steps": ["Tráng bột trên nồi hấp", "Xào nhân thịt mộc nhĩ", "Cuốn bánh với nhân", "Rưới hành phi mỡ", "Chấm nước mắm pha"]}
+        ]
+      },
+      "hai_phong": {
+        "name": "Hải Phòng",
+        "backdrop": "Cảng biển sầm uất, thuyền đánh cá, chợ cá ven biển, đảo Cát Bà",
+        "dishes": [
+          {"name": "Bánh Đa Cua", "name_en": "Crab Noodle Soup", "ingredients": "bánh đa đỏ, cua đồng, rau muống, hành phi, mắm tôm", "steps": ["Giã cua đồng lọc nước", "Nấu nước cua sôi lăn tăn", "Chần rau muống", "Trụng bánh đa đỏ", "Chan nước cua rắc hành phi"]}
+        ]
+      }
+    }
+  },
+  "mien_trung": {
+    "name": "Miền Trung",
+    "regions": {
+      "hue": {
+        "name": "Huế",
+        "backdrop": "Kinh thành Huế, sông Hương thơ mộng, cầu Trường Tiền, cung đình",
+        "dishes": [
+          {"name": "Bún Bò Huế", "name_en": "Hue Beef Noodle Soup", "ingredients": "bún, thịt bò, giò heo, sả, mắm ruốc, ớt", "steps": ["Ninh xương bò giò heo với sả", "Phi dầu ớt tạo màu", "Thêm mắm ruốc", "Thái thịt bò chín", "Chan bún thêm rau sống"]},
+          {"name": "Bánh Bèo", "name_en": "Water Fern Cake", "ingredients": "bột gạo, tôm khô, mỡ hành, nước mắm", "steps": ["Pha bột gạo loãng", "Hấp bánh trong chén nhỏ", "Làm tôm chấy giã nhỏ", "Rưới mỡ hành + tôm chấy", "Chấm nước mắm chua ngọt"]},
+          {"name": "Cơm Hến", "name_en": "Mussel Rice", "ingredients": "hến, cơm nguội, rau sống, đậu phộng, muối ớt", "steps": ["Luộc hến lấy nước + ruột", "Trộn cơm nguội với hến", "Thêm rau sống thái nhỏ", "Rắc đậu phộng rang", "Nêm muối ớt mắm ớt"]},
+          {"name": "Nem Lụi", "name_en": "Lemongrass Pork Skewers", "ingredients": "thịt heo, mỡ, sả, hành", "steps": ["Băm thịt mỡ sả", "Nặn quanh que tre", "Nướng than hồng", "Cuốn bánh tráng rau sống", "Chấm nước lèo"]}
+        ]
+      },
+      "da_nang": {
+        "name": "Đà Nẵng",
+        "backdrop": "Cầu Rồng phun lửa, bãi biển Mỹ Khê, núi Ngũ Hành Sơn, phố cổ Hội An gần đó",
+        "dishes": [
+          {"name": "Mì Quảng", "name_en": "Quang Noodles", "ingredients": "mì sợi vàng, tôm, thịt, trứng cút, đậu phộng, rau sống, bánh tráng", "steps": ["Xào tôm thịt ướp nghệ", "Nấu nước dùng xương + nghệ", "Bày mì + nhân + rau sống", "Chan nước dùng xâm xấp", "Rắc đậu phộng + bánh tráng vụn"]},
+          {"name": "Bánh Tráng Cuốn Thịt Heo", "name_en": "Pork Wrapped in Rice Paper", "ingredients": "thịt heo luộc, bánh tráng, rau sống, mắm nêm", "steps": ["Luộc thịt heo ba chỉ", "Thái mỏng", "Bày rau sống + chuối chát", "Cuốn bánh tráng", "Chấm mắm nêm Đà Nẵng"]}
+        ]
+      },
+      "nha_trang": {
+        "name": "Nha Trang",
+        "backdrop": "Bãi biển trong xanh, tàu thuyền đánh cá, đảo xa mờ sương",
+        "dishes": [
+          {"name": "Nem Nướng Nha Trang", "name_en": "Nha Trang Grilled Pork Rolls", "ingredients": "thịt heo xay, tỏi, tiêu, đường, nước mắm, bánh tráng, rau sống", "steps": ["Quết thịt cho dẻo dai", "Nặn viên xiên que tre", "Nướng trên than hồng", "Bày mẹt: nem + bánh tráng + rau", "Pha nước chấm đặc biệt"]},
+          {"name": "Bún Sứa", "name_en": "Jellyfish Noodle Soup", "ingredients": "bún, sứa biển, cá dầm, chả cá, rau sống", "steps": ["Sơ chế sứa", "Nấu nước dùng cá", "Làm chả cá chiên", "Bày bún + sứa + chả", "Chan nước dùng nóng"]}
+        ]
+      }
+    }
+  },
+  "mien_nam": {
+    "name": "Miền Nam",
+    "regions": {
+      "sai_gon": {
+        "name": "Sài Gòn",
+        "backdrop": "Phố đi bộ Nguyễn Huệ, chợ Bến Thành, xe máy tấp nập, quán vỉa hè",
+        "dishes": [
+          {"name": "Cơm Tấm Sườn Bì Chả", "name_en": "Broken Rice with Grilled Pork", "ingredients": "cơm tấm, sườn nướng, bì, chả trứng, mỡ hành, đồ chua", "steps": ["Ướp sườn nướng than", "Làm bì (da heo + thính)", "Hấp chả trứng", "Bày cơm tấm + nhân", "Rưới mỡ hành + nước mắm"]},
+          {"name": "Hủ Tiếu Sài Gòn", "name_en": "Saigon Noodle Soup", "ingredients": "hủ tiếu, tôm, thịt, gan, lòng, giá đỗ, hẹ", "steps": ["Ninh xương lấy nước dùng", "Xào tôm thịt gan", "Trụng hủ tiếu", "Chan nước dùng + nhân", "Rắc hành phi"]},
+          {"name": "Bánh Mì Sài Gòn", "name_en": "Saigon Banh Mi", "ingredients": "bánh mì, pa-tê, chả lụa, đồ chua, rau mùi, ớt, nước sốt", "steps": ["Nướng giòn bánh mì", "Phết pa-tê", "Xếp chả + thịt nguội", "Thêm đồ chua + rau mùi ớt", "Rưới nước sốt maggi"]}
+        ]
+      },
+      "mien_tay": {
+        "name": "Miền Tây",
+        "backdrop": "Sông nước mênh mông, chợ nổi Cái Răng, cầu khỉ, vườn trái cây, xuồng ba lá",
+        "dishes": [
+          {"name": "Lẩu Mắm", "name_en": "Fermented Fish Hot Pot", "ingredients": "mắm cá linh, cá, tôm, mực, rau đồng, bún", "steps": ["Nấu mắm cá linh lọc", "Thêm sả ớt tỏi", "Nhúng cá tôm mực", "Ăn kèm rau đồng", "Chấm nước chấm me"]},
+          {"name": "Cá Lóc Nướng Trui", "name_en": "Straw-Grilled Snakehead Fish", "ingredients": "cá lóc, rơm khô, rau sống, bánh tráng, nước mắm me", "steps": ["Xiên cá lóc que tre", "Vùi rơm khô đốt nướng", "Gỡ thịt cá thành miếng", "Cuốn bánh tráng + rau", "Chấm mắm me chua ngọt"]},
+          {"name": "Bánh Xèo Miền Tây", "name_en": "Southern Sizzling Crepe", "ingredients": "bột gạo, nước cốt dừa, tôm, thịt, giá đỗ, hẹ", "steps": ["Pha bột + nước dừa + nghệ", "Đổ bột vào chảo nóng", "Xếp nhân tôm thịt giá", "Gập đôi chiên giòn", "Cuốn rau chấm nước mắm"]},
+          {"name": "Bún Nước Lèo Sóc Trăng", "name_en": "Soc Trang Noodle Soup", "ingredients": "bún, mắm bò hóc, cá lóc, thịt quay, rau muống", "steps": ["Nấu mắm bò hóc + nước dừa", "Luộc cá lóc gỡ thịt", "Cắt thịt quay thành miếng", "Bày bún + cá + thịt quay", "Chan nước lèo + rau muống"]}
+        ]
+      }
+    }
+  }
+}
